@@ -41,7 +41,7 @@ version = "0.7.10"
 
 [[ArtifactWrappers]]
 deps = ["DocStringExtensions", "Downloads", "Pkg"]
-path = "/Users/garrett/.julia/dev/ArtifactWrappers"
+git-tree-sha1 = "e9b52e63e3ea81a504412807c9426566e26c232d"
 uuid = "a14bc488-3040-4b00-9dc1-f6467924858a"
 version = "0.1.1"
 
