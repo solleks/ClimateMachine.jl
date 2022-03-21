@@ -179,7 +179,7 @@ end
 
 vars(Q::MPIStateArray{FT, V}) where {FT, V} = V
 function Base.getproperty(Q::MPIStateArray{FT, V}, sym::Symbol) where {FT, V}
-    if sym ∈ V.names
+    if hasfield(V, sym)
         varrange = varsindex(V, sym)
         return view(realview(Q), :, varrange, :)
     else
